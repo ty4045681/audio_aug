@@ -1,0 +1,7 @@
+recipe_id: band_limit_v1
+notes: "IIR 低通限带 3400Hz，模拟电话/窄带信道"
+params:
+  mode: iir          # freq | iir | resample
+  cutoff_hz: 3400.0
+  filter_order: 6    # 仅 iir 模式
+  # target_sample_rate: 8000  # 仅 resample 模式

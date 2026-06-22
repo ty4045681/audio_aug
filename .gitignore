@@ -1,0 +1,14 @@
+.claude
+
+# 增强输出批次（结果可由脚本 + recipe 复现，不入库）
+runs/
+
+# 原始音频通常体积大，按需决定是否入库；默认忽略 wav，保留目录占位说明
+raw/**/*.wav
+
+# python / 工具产物
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.idea/

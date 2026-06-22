@@ -1,0 +1,6 @@
+recipe_id: subband_eq_v1
+notes: "随机子带均衡，模拟设备频响不均"
+params:
+  low_min_gain_db: -10.0
+  high_min_gain_db: -20.0
+  seed: 0

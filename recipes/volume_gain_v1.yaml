@@ -1,0 +1,4 @@
+recipe_id: volume_gain_v1
+notes: "音量增益 +6dB，用于响度扰动增强"
+params:
+  gain_db: 6.0

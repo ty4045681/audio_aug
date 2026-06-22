@@ -1,0 +1,5 @@
+recipe_id: noise_mix_v1
+notes: "加高斯白噪声，目标 SNR 15dB"
+params:
+  snr_db: 15.0
+  seed: 0

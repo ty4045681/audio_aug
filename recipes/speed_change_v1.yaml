@@ -1,0 +1,4 @@
+recipe_id: speed_change_v1
+notes: "语速 +10%（不保音高），模拟快速说话"
+params:
+  speed_factor: 1.1

@@ -1,0 +1,8 @@
+recipe_id: spectral_mask_v1
+notes: "SpecAugment 式时/频谱掩蔽"
+params:
+  frequency_masks: 2
+  time_masks: 1
+  min_gain: 0.05
+  max_gain: 0.6
+  seed: 0

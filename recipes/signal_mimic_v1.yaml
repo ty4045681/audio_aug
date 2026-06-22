@@ -1,0 +1,9 @@
+recipe_id: signal_mimic_v1
+notes: "复合模拟：按概率随机叠加 子带均衡/静音/限带/谱掩蔽/窄带 退化"
+params:
+  subband_probability: 0.4
+  mute_probability: 0.1
+  band_limit_probability: 0.5
+  spectral_mask_probability: 0.1
+  narrowband_probability: 0.2
+  seed: 0

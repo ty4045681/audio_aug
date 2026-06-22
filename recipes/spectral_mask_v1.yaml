@@ -1,8 +1,8 @@
 recipe_id: spectral_mask_v1
-notes: "SpecAugment 式时/频谱掩蔽"
+notes: "单条浅频带掩蔽(轻微频域起伏,不做时域门控)"
 params:
-  frequency_masks: 2
-  time_masks: 1
-  min_gain: 0.05
-  max_gain: 0.6
+  frequency_masks: 1
+  time_masks: 0
+  min_gain: 0.6
+  max_gain: 0.9
   seed: 0

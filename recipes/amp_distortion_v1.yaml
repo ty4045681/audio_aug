@@ -1,10 +1,10 @@
 recipe_id: amp_distortion_v1
-notes: "幅度失真 / 削波；distortion_type 可选 gain_db|max_distortion|fence_distortion|jag_distortion|poly_distortion|quad_distortion"
+notes: "轻微增益削波失真(仅 25% 样点,小幅增益,偶发峰值削波);distortion_type 可选 gain_db|max_distortion|fence_distortion|jag_distortion|poly_distortion|quad_distortion"
 params:
-  distortion_type: fence_distortion
-  rate: 0.8          # 被处理样点比例 (0,1]
-  mask_number: 4     # fence/jag
-  # gain_db: 6.0     # gain_db 类型
+  distortion_type: gain_db
+  gain_db: 3.0       # 被处理样点的小幅增益,仅最响峰值削波
+  rate: 0.25         # 被处理样点比例 (0,1]
+  # mask_number: 4   # fence/jag 类型
   # max_db: -0.03    # max/fence 类型
   # a: 1.0; m: 1; n: 1  # poly 类型
   seed: 0

@@ -1,4 +1,4 @@
 recipe_id: speed_change_v1
-notes: "语速 +10%（不保音高），模拟快速说话"
+notes: "语速 +5%（不保音高），轻微加速（刚好可察觉）"
 params:
-  speed_factor: 1.1
+  speed_factor: 1.05

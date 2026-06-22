@@ -1,4 +1,4 @@
 recipe_id: narrowband_v1
-notes: "降采样到 8kHz 再升回，模拟窄带电话音质"
+notes: "轻微窄带化(降采样到 12kHz 再升回，仅损失最高频)"
 params:
-  target_sample_rate: 8000
+  target_sample_rate: 12000
